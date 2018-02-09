@@ -7,4 +7,6 @@ $(document).ready(function() {
    dots: true,
    dotsClass: 'slick-dots__header-slider',
   });
+
+  $('select').niceSelect();
 });

@@ -642,6 +642,7 @@ body {
   width: 100%;
   min-width: 1650px;
   background: url(../img/footer__bg.jpg) no-repeat center / cover;
+  padding-bottom: 15px;
 
   &::before {
     display: block;
@@ -660,6 +661,7 @@ body {
 
   &-info {
     margin-top: 56px;
+    margin-bottom: 28px;
     width: 100%;
     display: -ms-flex;
     display: -webkit-box;
@@ -731,7 +733,156 @@ body {
           }
         }
       }
+
+      &:nth-child(2) {
+        padding-top: 47px;
+        padding-left: 95px;
+        display: -ms-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+
+        .footer-contacts {
+          width: 358px;
+          display: -ms-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #393e42;
+          margin-bottom: 17px;
+
+          &__block {
+            display: -ms-flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin-top: 20px;
+
+            &:first-child {
+              margin-top: 0;
+            }
+
+            img {
+              margin-right: 25px;
+            }
+
+            span {
+              font-size: 16px;
+              font-weight: 400;
+              color: #fff;
+              text-align: left;
+            }
+          }
+        }
+
+        .director {
+          display: -ms-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+
+          div {
+            width: 53px;
+            height: 53px;
+            border: 1px solid #fff;
+            margin-right: 45px;
+            display: -ms-flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+
+            img {
+              width: 43px;
+            }
+          }
+
+          span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            text-align: left;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        display: -ms-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+
+        h5 {
+          font-size: 21px;
+          font-weight: 400;
+          color: #fff;
+          text-transform: uppercase;
+          margin: 0;
+          margin-bottom: 40px;
+        }
+
+        span {
+          width: 280px;
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          text-align: center;
+        }
+
+        .footer-socials {
+          margin-top: 35px;
+          display: -ms-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+
+          a {
+            margin-left: 20px;
+
+            &:first-child {
+              margin-left: 0;
+            }
+          }
+        }
+      }
     }
+  }
+
+  .copyright {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
   }
 }
 

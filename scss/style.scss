@@ -3,7 +3,12 @@
 $red: #cf1327;
 
 @import "./_components/nice-select.scss";
-//@import "./_components/_roboto.scss";
+
+@font-face {
+  font-family: Georgia;
+  src: url(../fonts/Georgia.ttf);
+  font-weight: 400;
+}
 
 * {
   -webkit-box-sizing: border-box;

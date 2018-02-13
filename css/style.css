@@ -161,6 +161,12 @@
   display: block;
 }
 
+@font-face {
+  font-family: Georgia;
+  src: url(../fonts/Georgia.ttf);
+  font-weight: 400;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
